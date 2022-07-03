@@ -1,0 +1,79 @@
+.Banner {
+    width: 100vw;
+    aspect-ratio: 2/1;
+    min-height: 300px;
+    
+}
+
+.Banner .image{
+    background-image: url(https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3JvY2VyeSUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: lightseagreen;
+    background-blend-mode: darken;
+}
+
+.Banner .motto{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: chartreuse;
+    /* background: crimson; */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+[icon=search]{
+    background-image: url(../svgs/search-svgrepo-com.svg);
+}
+
+
+#search-div3410{
+    display: grid;
+    width: 80vw;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: white;
+    /* height: 10vh; */
+    position: absolute;
+    left: 50%;
+    padding: 3px;
+    top: 35%;
+    gap: 2px;
+    transform: translate(-50%,-50%);
+    grid-auto-flow: column;
+    grid-auto-columns: 80% 20%;
+    font-size: large;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+
+#search-div3410 input {
+    font-size: inherit;
+    color: inherit;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    background-color: inherit;
+}
+
+[icon=search] {
+    background-image: url(../svgs/search-svgrepo-com.svg);
+    aspect-ratio: 1/1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    flex-grow: 1;
+    background-origin: content-box;
+    border-left: 1px black solid;
+    padding: 5px;
+    /* border-radius: 5px; */
+}

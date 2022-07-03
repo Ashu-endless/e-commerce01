@@ -1,0 +1,39 @@
+.product {
+    /* height: 10vh; */
+    /* border: 1px #2ae5c2 solid; */
+    border-radius: 4px;
+    background: white;
+    aspect-ratio: 1/2;
+    display: grid;
+    min-height: 100px;
+    max-height: 250px;
+    justify-items: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px;
+}
+
+.product .about {
+    color: #000000;
+}
+
+.product img{
+    height: 100%;
+    width: 100%;
+}
+.product .image {
+    /* height: 100%; */
+    width: 100%;
+    min-height: 100px;
+    background-size: cover;
+    background-repeat: round;
+    aspect-ratio: 1;
+}
+
+.product .btn-addtocart{
+    color: black;
+}
+
+.product:hover {
+    /* background: #3e897b; */
+    border: 2px #4242ff solid;
+}
