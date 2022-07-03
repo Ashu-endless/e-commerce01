@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-commerce01/static/css/main.577ba554.css",
+    "main.js": "/e-commerce01/static/js/main.810bd0f0.js",
+    "static/js/787.b007fa7c.chunk.js": "/e-commerce01/static/js/787.b007fa7c.chunk.js",
+    "static/media/search-svgrepo-com.svg": "/e-commerce01/static/media/search-svgrepo-com.456244f26ac59ce5052d.svg",
+    "index.html": "/e-commerce01/index.html",
+    "main.577ba554.css.map": "/e-commerce01/static/css/main.577ba554.css.map",
+    "main.810bd0f0.js.map": "/e-commerce01/static/js/main.810bd0f0.js.map",
+    "787.b007fa7c.chunk.js.map": "/e-commerce01/static/js/787.b007fa7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.577ba554.css",
+    "static/js/main.810bd0f0.js"
+  ]
+}
