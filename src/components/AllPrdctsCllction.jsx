@@ -5,7 +5,7 @@ import './AllPrdctsCllction.css'
 function AllPrdctsCllction() {
 
     const Products = ProductArr.map((ProductJson) =>
-  <Product {...ProductJson}  />
+  <Product key={ProductJson.id} {...ProductJson}  />
 );
 
 

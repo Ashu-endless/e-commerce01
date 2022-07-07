@@ -1,0 +1,23 @@
+.cart-item{
+    position: relative;
+    height: 30vh;
+    min-height: 200px;
+    max-height: 250px;
+    display: grid;
+    grid-auto-flow: column;
+    max-width: 450px;
+    width: 80vw;
+    margin: 1vh 2vw;
+    background-color: white;
+}
+
+.cart-item .left {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart-item .right {
+    display: grid;
+    align-content: start;
+}

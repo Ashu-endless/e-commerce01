@@ -1,0 +1,35 @@
+[icon=empty-box] {
+    background-image: url(../svgs/empty-box.svg);
+    max-width: 200px;
+    width: 30vw;
+    background-size: contain;
+}
+
+.min-grid {
+    background-color: aliceblue;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 5vw;
+}
+
+.min-row-grid{
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    gap: 20px;
+}
+
+.chechout{
+    background-color: white;
+    min-width: 50vw;
+    width: fit-content;
+    margin: 1vh 1vw;
+}
+
+#place-order-btn {
+    background-color: yellow;
+    border: none;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+}

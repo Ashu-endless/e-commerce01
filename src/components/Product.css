@@ -31,9 +31,19 @@
 
 .product .btn-addtocart{
     color: black;
+    font-size: small;
 }
 
 .product:hover {
     /* background: #3e897b; */
     border: 2px #4242ff solid;
+}
+
+a.btn-viewcart {
+    background-color: yellow;
+    border-radius: 2px;
+    display: grid;
+    align-items: center;
+    font-size: small;
+    padding: 0px 4px;
 }

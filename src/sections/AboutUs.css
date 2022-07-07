@@ -1,0 +1,48 @@
+[icon=store]{
+    background-image: url(../svgs/store.svg);
+    max-width: 400px;
+}
+
+.title-content {
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.heading-content-p {
+    font-size: 17px;
+    font-size: large;
+    color: #1a6692;
+    margin-bottom: 20px;
+}
+
+.heading-content-span  {
+    font-size: medium;
+    margin-bottom: 25px;
+    display: block;
+}
+
+[section=about_us]{
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-flow: wrap;
+    /* align-content: space-evenly; */
+    /* flex-basis: max-content; */
+}
+
+@media only screen and (min-width: 600px) {
+    .about-content {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - 20px) 50%;
+    }
+  }

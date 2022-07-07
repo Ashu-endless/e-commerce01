@@ -1,7 +1,7 @@
 .Banner {
     width: 100vw;
-    aspect-ratio: 2/1;
-    min-height: 300px;
+    /* aspect-ratio: 2/1; */
+    /* min-height: 300px; */
     
 }
 
@@ -13,6 +13,7 @@
     height: 100%;
     background-color: lightseagreen;
     background-blend-mode: darken;
+    aspect-ratio: 2/1;
 }
 
 .Banner .motto{
@@ -31,16 +32,18 @@
 
 [icon=search]{
     background-image: url(../svgs/search-svgrepo-com.svg);
+    cursor: pointer;
+}
+[icon=search]:hover {
+    background-color: #f463fd;
 }
 
-
-#search-div3410{
+/* #search-div3410{
     display: grid;
     width: 80vw;
     min-width: 250px;
     max-width: 350px;
     background-color: white;
-    /* height: 10vh; */
     position: absolute;
     left: 50%;
     padding: 3px;
@@ -52,28 +55,21 @@
     font-size: large;
     border-radius: 5px;
     align-items: center;
+} */
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    
 }
 
-
-
-#search-div3410 input {
-    font-size: inherit;
-    color: inherit;
-    height: fit-content;
-    padding: 10px;
-    border: none;
-    background-color: inherit;
-}
-
-[icon=search] {
-    background-image: url(../svgs/search-svgrepo-com.svg);
-    aspect-ratio: 1/1;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: auto;
-    flex-grow: 1;
-    background-origin: content-box;
-    border-left: 1px black solid;
-    padding: 5px;
-    /* border-radius: 5px; */
+.swiper-slide {
+    display: grid;
+    align-items: center;
+    align-content: center;
 }
