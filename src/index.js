@@ -12,8 +12,7 @@ root.render(
     <HashRouter>
     <Routes>
 
-    <Route/>
-    <Route path="/admin_dashboard/" element={<AdminDashBoard/>} />
+    <Route path="/admin_dashboard/*" element={<AdminDashBoard/>} />
     <Route path="/*" element={<App />} />
 
     </Routes>

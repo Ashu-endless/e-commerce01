@@ -1,6 +1,10 @@
 import React,{useState} from "react";
 import './AdminDashBoard.css'
 import SideBarAn from "../componentsadmin/SideBarAn";
+import OrderSection from "../components/adminsections/OrderSection";
+import { Routes,Route } from "react-router-dom";
+import ProductsAn from "../components/adminsections/ProductsAn";
+
 function AdminDashBoard() {
     const [showSideBar, setshowSideBar] = useState("none");
     return ( <>
@@ -13,6 +17,16 @@ function AdminDashBoard() {
             </div>
         </nav>
 
+        <Routes>
+
+        <Route path={"/products"} element={<ProductsAn/>} ></Route>
+        <Route path={"/orders"} element={<OrderSection/>} ></Route>
+        <Route path={"/settings"} element={<OrderSection/>} ></Route>
+        <Route path={"/users"} element={<OrderSection/>} ></Route>
+
+        </Routes>
+
+        
         <SideBarAn display={showSideBar} />
     </> );
 }

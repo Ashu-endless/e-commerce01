@@ -4,11 +4,21 @@ import './Product.css'
 function Product(props) {
 
     function IsInCart(data){
-        if (localStorage.getItem('cart-items').split(',').includes(`${data.id}`) ){
-            return true
-        }else{
+        
+
+        try {
+            if (localStorage.getItem('cart-items').split(',').includes(`${data.id}`) ){
+                return true
+            }else{
+                return false
+            }
+            
+        } catch (error) {
             return false
+            
         }
+
+        
     }
 
     function AddToCart(e){

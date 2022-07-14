@@ -4,8 +4,15 @@
 :root{
   --swiper-pagination-bullet-inactive-color:white;
   --swiper-pagination-bullet-inactive-opacity:1;
+  
+  --theme-bg-color1:white;
+  --theme-bg-color2:#aae5e5;
+  --theme-font-color2:#8b5d5d;
 }
 
+/* white -#080707 */
+/* white -#1a1b20*/
+/* #aae5e5-bg c-#8b5d5d */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

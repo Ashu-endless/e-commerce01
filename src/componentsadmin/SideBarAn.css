@@ -1,7 +1,6 @@
 #SideBar {
     grid-gap: 1vh;
-    background-color: #0f1018;
-    border-radius: 5px;
+    background-color: var(--theme-bg-color1);
     display: grid;
     gap: 1vh;
     grid-auto-flow: row;
@@ -11,30 +10,41 @@
     justify-items: center;
     max-width: 300px;
     min-width: 150px;
-    padding: 5vh 1vh 1vh;
+    padding: 4rem 1vh 1vh;
     position: fixed;
     right: 0;
     text-align: center;
     top: 0;
     width: 30vw;
     z-index: 8;
+    border-left: 1px solid  #764fb5;
 }
 
 
 #hide-sidebar-icon {
     position: absolute;
-    left: 01vw;
-    color: #636d9f;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: inherit;
     font-size: large;
     /* stroke-width: 10px; */
 }
 
-.ulcol34 li{
+.ulcol34 a{
     /* border: 1px solid blue; */
     /* width: 100%; */
     padding: 10px 5px;
-    background-color: #1a1b20;
-    border-radius: 5px;
+    background-color: var(--theme-bg-color2);
+    border-radius: 2px;
+    color: var(--theme-font-color2);
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: baseline;
+}
+
+.ulcol34 .active-header {
+    color: chocolate;
 }
 
 .ulcol34 {
@@ -42,7 +52,7 @@
     /* top: 1rem; */
     list-style-type: none;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     gap: 5px;
     display: grid;
     width: 100%;
@@ -52,4 +62,17 @@
 
 span#hide-sidebar-icon:hover {
     color: blueviolet;
+}
+
+#SideBar #header {
+    position: absolute;
+    color: #8b5d5d;
+    width: calc(100% - 10px);
+    top: 5px;
+    align-items: center;
+    margin: 10px;
+    align-content: center;
+    display: grid;
+    border-bottom: 2px #bba1e5 solid;
+    padding: 0px 0px 5px 0px;
 }

@@ -1,15 +1,16 @@
 import {Link} from 'react-router-dom'
 import "./ShoppingCart.css"
-import ProductArr from '../components/data';
+import {ProductArr} from '../components/data';
 import Cartitem from '../components/Cartitme';
 function ShoppingCart() {
     var onlycartproducts = []
+    if ( localStorage.getItem('cart-items') !== null ){
     for (var data of ProductArr){
         if (localStorage.getItem('cart-items').split(',').includes(`${data.id}`) ){
             onlycartproducts.push(data)
         }
 
-    }
+    }}
     const CartItems = onlycartproducts.map((ProductJson) =>
   <Cartitem key={ProductJson.id} {...ProductJson}  />
 );

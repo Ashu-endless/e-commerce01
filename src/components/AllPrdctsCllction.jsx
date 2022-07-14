@@ -1,5 +1,5 @@
 import Product from "./Product";
-import ProductArr from "./data";
+import {ProductArr} from "./data";
 import './AllPrdctsCllction.css'
 
 function AllPrdctsCllction() {

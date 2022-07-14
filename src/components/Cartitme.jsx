@@ -5,10 +5,23 @@ function Cartitem(props) {
     <div className='cart-item' >
         <div  className='left' style={{backgroundImage:`url(${props.image})`}} ></div>
         <div className='right' >
-            <span>{props.name}</span><span>{props.details}</span>
-            <b>{props.offer_price}</b>
-            <strike>{props.original_price}</strike>
-            <span>save R {parseInt(props.original_price)-parseInt(props.offer_price)}</span>
+            <b>{props.name} {props.detail}</b>
+            {/* <span>{props.detail}</span> */}
+            <div className='grdclm' >
+            <b>&#8377;{props.offer_price}</b>
+            <strike>&#8377;{props.original_price}</strike>
+            <span>save &#8377; {parseInt(props.original_price)-parseInt(props.offer_price)}</span>
+            </div>
+            <ul>
+                <li>Info 1</li>
+                <li>Info 2</li>
+                <li>Info 2</li>
+            </ul>
+            <div className='quantity' > <label htmlFor="">Quantity : </label> <input defaultValue={1} type="number" /></div>
+
+            <div>Total price :<b>&#8377;{props.offer_price}</b><b>* 2 = </b><b>&#8377;1600</b>  </div>
+
+            <button style={{color:"red"}} >remove from cart</button>
         </div>
     </div>
     </> );

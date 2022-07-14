@@ -9,15 +9,40 @@
     width: 80vw;
     margin: 1vh 2vw;
     background-color: white;
+    text-align: left;
 }
 
 .cart-item .left {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    min-width: 150px;
 }
 
 .cart-item .right {
     display: grid;
     align-content: start;
+}
+
+@media only screen and (max-width: 360px) {
+    .cart-item{
+        width: 96vw;
+    }
+
+  }
+
+  .cart-item .quantity {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    grid-auto-columns: 50% 50%;
+}
+
+.cart-item .quantity input{
+    max-width: 50px;
+}
+
+.grdclm {
+    display: grid;
+    grid-auto-flow: column;
 }
