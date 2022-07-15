@@ -23,10 +23,10 @@ function SideBarAn(props) {
         </div>
         
         <ul className='ulcol34' >
-            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/products'} ><i class="bi bi-cart4"></i><span><span>Products</span></span></NavLink>
-            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"} to={'/admin_dashboard/orders'} ><i class="bi bi-bell"></i><span>Orders</span></NavLink>
-            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/users'} ><i class="bi bi-people"></i><span>Users</span></NavLink>
-            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/settings'} > <i class="bi bi-gear-wide"></i> <span>Settings</span> </NavLink>
+            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/products'} ><i className="bi bi-cart4"></i><span><span>Products</span></span></NavLink>
+            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"} to={'/admin_dashboard/orders'} ><i className="bi bi-bell"></i><span>Orders</span></NavLink>
+            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/users'} ><i className="bi bi-people"></i><span>Users</span></NavLink>
+            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/settings'} > <i className="bi bi-gear-wide"></i> <span>Settings</span> </NavLink>
         </ul>
     </div> );
 }

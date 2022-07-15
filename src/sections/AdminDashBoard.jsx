@@ -1,9 +1,9 @@
 import React,{useState} from "react";
 import './AdminDashBoard.css'
 import SideBarAn from "../componentsadmin/SideBarAn";
-import OrderSection from "../components/adminsections/OrderSection";
+import OrderSection from "../adminsections/OrderSection";
 import { Routes,Route } from "react-router-dom";
-import ProductsAn from "../components/adminsections/ProductsAn";
+import ProductsAn from "../adminsections/ProductsAn";
 
 function AdminDashBoard() {
     const [showSideBar, setshowSideBar] = useState("none");

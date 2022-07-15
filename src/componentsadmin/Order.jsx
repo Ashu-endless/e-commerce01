@@ -1,8 +1,9 @@
 import './Order.css'
 function Order(props) {
+    console.log(props)
     return ( <>
     <div> 
-        <span>{props.id}</span>
+        <span>{props.s_no}</span>
         <span>{props.by}</span>
         <span>{props.time}</span>
         <span>{props.time}</span>

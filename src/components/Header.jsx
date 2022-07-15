@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './Header.css'
-import {NavLink} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 
 function Header() {
     // var navList = document.getElementById("nav-lists");
@@ -14,7 +14,7 @@ function Hide(){
     return ( <>
         <div className="container">
     <div className="logo">
-        <a href="#"><p id="Store-title-nav" ><span>Goel </span><span>Value Bazaar</span></p></a>
+        <Link to="/e-commerce01"><p id="Store-title-nav" ><span>Goyal </span><span>Value Bazaar</span></p></Link>
     </div>
 <div className="navbar">
 
