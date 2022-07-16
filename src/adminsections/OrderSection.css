@@ -12,7 +12,7 @@
         display: grid;
         grid-auto-flow: column;
         justify-content: space-around;
-        font-size: smaller;
+        font-size: x-small;
         border-radius: 2px;
         border: 1px blue solid;
         color: brown;

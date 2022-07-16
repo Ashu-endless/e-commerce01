@@ -1,10 +1,17 @@
 .slctbtnbtn {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 70% 9% 9%;
     gap: 3%;
-    padding: 0px 10px;
+    margin-bottom: 1rem;
 }
+
+.grdend {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 1rem;
+}
+
 
 .bluewhtbtn {
     background-color: blue;
@@ -18,4 +25,15 @@
     padding: 3px;
     grid-auto-flow: column;
     gap: 2px;
+}
+
+.PrdctTable-head {
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 20% 20%;
+    justify-items: center;
+    font-size: small;
+    font-weight: bold;
+    justify-items: left;
 }

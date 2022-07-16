@@ -27,6 +27,7 @@ function SideBarAn(props) {
             <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"} to={'/admin_dashboard/orders'} ><i className="bi bi-bell"></i><span>Orders</span></NavLink>
             <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/users'} ><i className="bi bi-people"></i><span>Users</span></NavLink>
             <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/settings'} > <i className="bi bi-gear-wide"></i> <span>Settings</span> </NavLink>
+            <NavLink className={({ isActive }) => isActive ? "active-header" : "unactive-header"}  to={'/admin_dashboard/feedbacks'} > <i class="bi bi-star"></i> <span>Feedbacks</span> </NavLink>
         </ul>
     </div> );
 }
