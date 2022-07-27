@@ -1,13 +1,17 @@
 import Banner from "../components/Banner";
-import AllPrdctsCllction from "../components/AllPrdctsCllction";
-
+// import AllPrdctsCllction from "../components/AllPrdctsCllction";
+import ItemSlider from "../components/ItemSlider";
+import './Home.css'
 function Home() {
     return ( <>
 
-    <Banner/>
-<div id="mobile-searchdiv" className='search-div3410'  ><input type="text" placeholder='Search product' name="" id="" /> <span className="search-icon" > <i class="bi bi-search"></i></span> </div> 
+    <div id="Explore" >
 
-    <AllPrdctsCllction/>
+    <Banner/>
+    <ItemSlider title="Top-Trending" />
+    <ItemSlider title="Best-selling" />
+    </div>
+    {/* <Footer/> */}
     </> );
 }
 

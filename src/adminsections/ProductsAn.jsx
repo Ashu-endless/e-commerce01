@@ -1,8 +1,9 @@
 import './ProductAn.css'
-import ProductDetailsRow from './ProductDetailsRow';
+import ProductDetailsRow from '../componentsadmin/ProductDetailsRow';
 import { ProductArr } from '../components/data';
 import {Link,Route,Routes} from 'react-router-dom'
 import AddProduct from '../componentsadmin/AddProduct';
+import ViewProduct from '../componentsadmin/ViewProduct';
 
 function ProductsAn() {
 
@@ -21,6 +22,7 @@ function ProductsAn() {
                 <option value="">All</option>
                 <option value="">Snacks</option>
             </select>
+            <Link to={`/admin_dashboard/products/category=${0}`} className="edit-data" ><i class="bi bi-pencil-square"></i></Link>
             <div className='grdend' >
 
             <Link to={'/admin_dashboard/products/add_product'} className="bluewhtbtn"><i class="bi bi-plus"></i>Add Product</Link>
@@ -34,6 +36,7 @@ function ProductsAn() {
         </div>
 
         <div className='PrdctTable-head tblehead' >
+            <span>Id</span>
             <span>Product</span>
             <span>Selling Price</span>
             <span>In Stocks</span>
@@ -46,6 +49,8 @@ function ProductsAn() {
 
         <Routes>
             <Route path={"/add_product"} element={<AddProduct/>} />
+            <Route path={"/product=:slug"} element={<ViewProduct />} />
+            
         </Routes>
 
     </div>

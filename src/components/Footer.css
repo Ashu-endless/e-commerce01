@@ -1,0 +1,39 @@
+div#Footer {
+    display: none;
+    position: fixed;
+    top: calc(100% - 4rem);
+    /* bottom: 0; */
+    width: 100%;
+    font-size: x-large;
+    background-color: #bd9f9f;
+    background-color: #a6c6d6;
+    z-index: 1;
+    grid-auto-flow: column;
+    /* padding: 10px 20px; */
+    /* height: 50px; */
+    align-items: center;
+    height: 4rem;
+}
+#Footer a {
+    color: black;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+
+#Footer a.active-header  {
+    background-color: chocolate;
+    color: white!important;
+}
+#Footer a.active-header .bi {
+    /* background-color: chocolate; */
+    color: white!important;
+}
+
+@media only screen and (max-width: 650px) {
+div#Footer{
+    display: grid!important;
+}
+
+}

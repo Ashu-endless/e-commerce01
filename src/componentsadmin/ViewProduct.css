@@ -1,0 +1,62 @@
+.adminviewproduct {
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    top: 5rem;
+    background-color: white;
+    z-index: 1;
+    width: 80vw;
+    min-width: 280px;
+    left: 50%;
+    border-radius: 0.5rem;
+    transform: translateX(-50%);
+    border: 1px #c332e7 solid;
+}
+
+.adminviewproduct  .edit {
+    background-color: blue;
+}
+.adminviewproduct   .delete {
+    background-color: red;
+}
+
+.adminviewproduct button {
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 1vh 1vw;
+    cursor: pointer;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+
+.adminviewproduct .actiontop {
+    font-size: xx-large;
+    /* min-height: 0.5rem; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 0.5rem;
+    /* left: 1rem; */
+    display: grid;
+    border-bottom: 1px solid blue;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+.random-2-btn {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1vw;
+}
+
+.adminviewproduct .details {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex-grow: 1;
+    font-weight: 500;
+    /* text-align: left; */
+}

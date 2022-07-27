@@ -9,7 +9,7 @@
     max-height: 250px;
     justify-items: center;
     padding: 1rem;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 1px 1px 5px darkcyan;
 }
 
 .product .about {
@@ -36,7 +36,8 @@
 
 .product:hover {
     /* background: #3e897b; */
-    border: 2px #4242ff solid;
+    border: 1px #4242ff solid;
+    transform: scale(1.1);
 }
 
 a.btn-viewcart {

@@ -21,15 +21,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  width: 100vw;
+  /* width: 100vw; */
+  min-height: 100vh;
   background-color: #eaeded;
-
+  box-sizing: border-box;
+  overflow: hidden;
 
 }
-
+/* datalist {
+  display: block;
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 a{
@@ -68,4 +77,21 @@ p{
     flex-grow: 1;
     background-origin: content-box;
     padding: 5px;
+}
+
+
+.center_me{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bi{
+display: grid;
+align-items: center;
+}
+.bi:hover{
+color: blueviolet;
 }

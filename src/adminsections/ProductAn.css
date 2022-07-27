@@ -31,9 +31,10 @@
     background-color: white;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 50% 20% 20%;
+    grid-template-columns: 10% 45% 20% 20%;
     justify-items: center;
     font-size: small;
     font-weight: bold;
     justify-items: left;
+    align-items: center;
 }
