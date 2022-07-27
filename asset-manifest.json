@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/e-commerce01/static/css/main.c7590a1b.css",
+    "main.css": "/e-commerce01/static/css/main.dcafd76b.css",
     "main.js": "/e-commerce01/static/js/main.46ebef15.js",
     "static/js/787.b007fa7c.chunk.js": "/e-commerce01/static/js/787.b007fa7c.chunk.js",
     "static/media/store.svg": "/e-commerce01/static/media/store.b4e517f8474a1740fe12.svg",
@@ -8,12 +8,12 @@
     "static/media/search-svgrepo-com.svg": "/e-commerce01/static/media/search-svgrepo-com.456244f26ac59ce5052d.svg",
     "static/media/shopping-cart-svgrepo-com.svg": "/e-commerce01/static/media/shopping-cart-svgrepo-com.07b5f6d48f8edfa7649a.svg",
     "index.html": "/e-commerce01/index.html",
-    "main.c7590a1b.css.map": "/e-commerce01/static/css/main.c7590a1b.css.map",
+    "main.dcafd76b.css.map": "/e-commerce01/static/css/main.dcafd76b.css.map",
     "main.46ebef15.js.map": "/e-commerce01/static/js/main.46ebef15.js.map",
     "787.b007fa7c.chunk.js.map": "/e-commerce01/static/js/787.b007fa7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7590a1b.css",
+    "static/css/main.dcafd76b.css",
     "static/js/main.46ebef15.js"
   ]
 }
